@@ -1,0 +1,8 @@
+extends layout
+block linktags
+    link(href="/css/colorpicker.css",rel="stylesheet")
+    script(src="/js/colorpicker.js")
+block content
+    div.colorpicker-container
+        each color, i in colors
+            div(style="background-color:#{color};").color-selector(data-color=color)

@@ -1,0 +1,9 @@
+extends layout
+block linktags
+    link(href="/css/imagefinder.css",rel="stylesheet")
+
+block content
+    div.main-image-container
+        each image,i in photoData
+            div.image-container
+                img(src='https://farm#{image.farm}.staticflickr.com/#{image.server}/#{image.id}_#{image.secret}.jpg').image-holder

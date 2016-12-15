@@ -1,0 +1,14 @@
+.home-main-container{
+    background-image: url("/img/home.jpg");
+    height: 100%;
+    background-size: 100%;
+    width: 100%;
+    position: absolute;
+}
+.title{
+    color: gray;
+    font-size: 30px;
+}
+body{
+    color: red;
+}

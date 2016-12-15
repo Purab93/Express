@@ -1,0 +1,16 @@
+.main-image-container{
+    display: inline-block;
+    border: 2px solid black;
+}
+.image-container{
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    margin-right: 0; 
+    float: left;
+    border: 2px solid deepskyblue;
+}
+.image-holder{
+    height: 100%;
+    width: 100%;
+}

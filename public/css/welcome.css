@@ -1,0 +1,29 @@
+.welcome-container{
+    background-image: url("/img/welcome.jpg");
+    height: 100%;
+    background-size: 100%;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+}
+.welcome-text{
+    position: relative;
+    font-size: 30px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.links-container{
+    position: relative;
+    margin: 25px;
+}
+a{
+    color: orange;
+    font-weight: 700;
+    font-size: 18px;
+}
+a:hover{
+    color: slategrey;
+}
+.links-holder {
+    margin: 10px;
+}

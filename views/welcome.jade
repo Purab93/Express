@@ -1,0 +1,14 @@
+extends layout
+block linktags
+    link(href="/css/welcome.css",rel="stylesheet")
+block content
+    div.welcome-container
+        div.welcome-text Welcome to the anonymous world!!!
+        div.links-container
+            ul.links-list
+                li.links-holder 
+                    a(href='/home') HOME
+                li.links-holder 
+                    a(href='/about') ABOUT US
+                li.links-holder 
+                    a(href='/colorpicker') Lets Try Colors!!!
